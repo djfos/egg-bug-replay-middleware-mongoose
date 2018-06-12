@@ -3,8 +3,8 @@
 const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
-  async index() {
-    const res = await this.ctx.modle.User.find({}).exe();
+  async test() {
+    const res = await this.ctx.model.User.find({}).exec();
     console.log(res);
 
     this.ctx.body = 'hi, egg';
