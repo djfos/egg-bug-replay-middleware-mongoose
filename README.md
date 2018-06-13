@@ -1,3 +1,10 @@
+# solved
+
+## await next() in middleware
+## https://github.com/eggjs/egg/issues/2684
+
+
+
 # bugReplay
 
 
